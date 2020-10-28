@@ -1,0 +1,35 @@
+package com.java.exercicios.classes;
+
+public class Calculadora {
+
+    private double number1;
+    private double number2;
+
+    public Calculadora() { // Contrutores vazios
+
+    }
+
+    public Calculadora(double number1, double number2) { // Construtores com parametros
+        this.number1 = number1;
+        this.number2 = number2;
+
+    }
+
+    public void colocarNumber1(double number1) {
+        this.number1 = number1;
+    }
+
+    public double buscarNumber1() {
+        return number1;
+
+    }
+
+    public void colocarNumber2(double number2) {
+        this.number2 = number2;
+    }
+
+    public double buscarNumber2() {
+        return  number2;
+    }
+
+}
