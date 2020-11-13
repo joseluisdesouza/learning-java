@@ -1,4 +1,4 @@
-package com.java.sobrecarga.metodos.classes;
+package com.java.metodos.classes;
 
 public class Funcionario {
 

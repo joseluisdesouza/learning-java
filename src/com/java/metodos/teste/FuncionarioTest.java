@@ -1,7 +1,7 @@
-package com.java.sobrecarga.metodos.test;
+package com.java.metodos.teste;
 
 
-import com.java.sobrecarga.metodos.classes.Funcionario;
+import com.java.metodos.classes.Funcionario;
 
 public class FuncionarioTest {
     public static void main(String[] args) {
