@@ -7,7 +7,7 @@ import java.util.List;
 public class JavaLambdaStream {
     public static void main(String[] args) {
 
-        //Lambda não veio somente para diminuir o tamanho do codigo mas tambem pata podermos usar as Streams
+        //Lambda não veio somente para diminuir o tamanho do codigo mas tambem para podermos usar as Streams
         // API DE STREAM são fluxo de dados
 
         List<Integer> asList = Arrays.asList(1, 2, 3, 4);
