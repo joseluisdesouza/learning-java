@@ -1,4 +1,4 @@
-package com.java.sobrecarga.construtores.test;
+package com.java.sobrecarga.construtores;
 
 public class EstudanteTest {
     public static void main(String[] args) {

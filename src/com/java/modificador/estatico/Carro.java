@@ -1,4 +1,4 @@
-package com.java.modificador.estatico.classe;
+package com.java.modificador.estatico;
 
 public class Carro {
     private String name;

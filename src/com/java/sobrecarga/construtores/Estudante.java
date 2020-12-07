@@ -1,4 +1,4 @@
-package com.java.sobrecarga.construtores.classes;
+package com.java.sobrecarga.construtores;
 
 public class Estudante {
     private String matricula;

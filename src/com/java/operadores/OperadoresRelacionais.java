@@ -44,5 +44,10 @@ public class OperadoresRelacionais {
         System.out.println(f);
         System.out.println(g);
 
+        //Operador Ternario
+
+        double media = 7.6;
+        String resultado = media >= 7.0 ? "Aprovado" : "Reprovado";
+
     }
 }

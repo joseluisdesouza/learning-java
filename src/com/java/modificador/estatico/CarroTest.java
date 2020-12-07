@@ -1,7 +1,7 @@
-package com.java.modificador.estatico.teste;
+package com.java.modificador.estatico;
 
 
-import com.java.modificador.estatico.classe.Carro;
+import com.java.modificador.estatico.Carro;
 
 public class CarroTest {
     public static void main(String[] args) {

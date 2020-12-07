@@ -1,7 +1,7 @@
-package com.java.bloco.inicializacao.test;
+package com.java.bloco.inicializacao;
 
 
-import com.java.bloco.inicializacao.classe.Client;
+import com.java.bloco.inicializacao.Client;
 
 public class ClientTest {
     public static void main(String[] args) {

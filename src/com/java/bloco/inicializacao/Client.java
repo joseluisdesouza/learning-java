@@ -1,4 +1,4 @@
-package com.java.bloco.inicializacao.classe;
+package com.java.bloco.inicializacao;
 
 public class Client {
     // 0 - Bloco de inicialização é executado quando a jvm carregar a classe (é executado apenas uma vez)
