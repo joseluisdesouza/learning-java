@@ -1,4 +1,4 @@
-package com.java.operadores;
+package com.java.Ooperadores;
 
 public class OperadoresDeAtribucao {
 
