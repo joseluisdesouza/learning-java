@@ -18,6 +18,6 @@ public class Vendedor extends Funcionario {
 
     @Override
     public void calcPagamento() {
-
+        this.salario = this.salario + (totalVendas * 0.05);
     }
 }

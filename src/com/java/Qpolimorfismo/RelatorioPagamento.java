@@ -27,7 +27,7 @@ public class RelatorioPagamento {
             System.out.println("Participação nos lucros: " + g.getPnl());
         }
         if (funcionario instanceof Vendedor) {
-            System.out.println("Total vendas: " + ((Vendedor) funcionario) .getTotalVendas());
+            System.out.println("Total vendas: " + ((Vendedor) funcionario) .getTotalVendas()); // Aqui foi feito um casting direto
         }
     }
 }

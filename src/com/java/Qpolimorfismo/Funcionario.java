@@ -1,6 +1,6 @@
 package com.java.Qpolimorfismo;
 
-public abstract class Funcionario {
+public abstract class Funcionario { //abstrata
 
     protected String nome;
     protected double salario;
@@ -18,6 +18,8 @@ public abstract class Funcionario {
                 '}';
     }
 
+
+    //A responsabilidade de calcular pagamento vai ficar tanto para o gerente e para o vendedor
     public abstract void calcPagamento();
 
     public String getNome() {

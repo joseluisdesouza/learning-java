@@ -1,6 +1,6 @@
 package com.java.Pinterfaces;
 
-//Outra coisa que difere uma interface de uma classe abstrata é que podemos implementar mais de um numa outro classe
+//Outra coisa que difere uma interface de uma classe abstrata é que podemos implementar mais de uma numa outro classe
 public interface Tributavel {
 
     //Em uma interface podemos ter atributos porem eles devem ser constantes

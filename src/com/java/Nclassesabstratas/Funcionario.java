@@ -53,4 +53,14 @@ public abstract class Funcionario {
     public void setSalario(double salario) {
         this.salario = salario;
     }
+
+    /**
+     * Classe abstrata explicada
+     * Uma classe abstrata é um tipo especial de classe que não pode ser instanciada.
+     * Uma classe abstrata é projetada para ser herdada por subclasses que implementam ou substituem seus métodos.
+     * Em outras palavras, as classes abstratas são parcialmente implementadas ou não são implementadas.
+     * Você pode ter funcionalidade em sua classe abstrata - os métodos em uma classe abstrata podem ser abstratos e concretos.
+     * Uma classe abstrata pode ter construtores - esta é uma das principais diferenças entre uma classe abstrata e uma interface.
+     * Você pode aproveitar as vantagens das classes abstratas para projetar componentes e especificar algum nível de funcionalidade comum que deve ser implementado por classes derivadas.
+     */
 }
