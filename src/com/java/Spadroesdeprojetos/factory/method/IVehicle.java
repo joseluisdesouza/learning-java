@@ -1,4 +1,4 @@
-package Spadroesdeprojetos.factory.method;
+package com.java.Spadroesdeprojetos.factory.method;
 
 public interface IVehicle {
 

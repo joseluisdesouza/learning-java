@@ -1,4 +1,4 @@
-package Spadroesdeprojetos.factory.method;
+package com.java.Spadroesdeprojetos.factory.method;
 
 public class MotorcycleTransport extends Transport {
     @Override

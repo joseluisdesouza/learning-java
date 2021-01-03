@@ -1,6 +1,4 @@
-package Spadroesdeprojetos.factory.method;
-
-import Spadroesdeprojetos.factory.method.IVehicle;
+package com.java.Spadroesdeprojetos.factory.method;
 
 public class Motorcycle implements IVehicle {
     @Override

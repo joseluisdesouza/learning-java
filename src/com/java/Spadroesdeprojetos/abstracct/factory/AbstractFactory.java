@@ -1,4 +1,4 @@
-package Spadroesdeprojetos.abstracct.factory;
+package com.java.Spadroesdeprojetos.abstracct.factory;
 
 public class AbstractFactory {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Spadroesdeprojetos.factory.method;
+package com.java.Spadroesdeprojetos.factory.method;
 
 public class Car implements IVehicle {
     @Override

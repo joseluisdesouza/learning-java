@@ -1,6 +1,4 @@
-package Spadroesdeprojetos.factory.method;
-
-import Spadroesdeprojetos.factory.method.IVehicle;
+package com.java.Spadroesdeprojetos.factory.method;
 
 public abstract class Transport {
 
