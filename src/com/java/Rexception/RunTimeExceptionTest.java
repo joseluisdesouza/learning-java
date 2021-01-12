@@ -4,7 +4,10 @@ public class RunTimeExceptionTest {
     public static void main(String[] args) {
         try {
             divisao(10,0);
-        } catch (RuntimeException e) {
+        } catch (RuntimeException e) { /**
+                                        *sempre trabalhar com o tipo mais especifico possivel, sabemos que runtimeexcepetion é filha de expetion, ate poderiamos passar
+                                        * apenas exception porem a classe filha runtimeexception pode conter informaçoes valiosas para o nosso tratamento
+                                        */
             System.out.println(e.getMessage()); // caso queira pegar somente a mensagem
         }
 
