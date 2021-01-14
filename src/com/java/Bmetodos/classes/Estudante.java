@@ -54,8 +54,8 @@ public class Estudante {
     //Metodos GETTERS e SETTERS = GET é quando queremos buscar/obter e SET é quando queremos colocar algo
 
     public void setNome(String nome) { // Os metodos GET e SET devem ser publics na maioria das vezes para podermos dar acesso por outras br.com.java.sobrecargametodos.classes, e não tera nenhum retorno porque eu só quero colocar um valor na memoria
-        this.nome = nome; /* o this.nome = nome significa que dentro do meu setNome que estou passando o String nome eu terei o nome do objeto nome por isso preciso fazer essa referencia
-        se colocar somente nome = nome tu esta dizendo que o nome do parametro String nome esta recebendo ele mesmo, só que queremos pegar o nome do objeto
+        this.nome = nome; /* o this.nome = nome significa que dentro do meu setNome que estou passando o StringTest nome eu terei o nome do objeto nome por isso preciso fazer essa referencia
+        se colocar somente nome = nome tu esta dizendo que o nome do parametro StringTest nome esta recebendo ele mesmo, só que queremos pegar o nome do objeto
         */
     }
 

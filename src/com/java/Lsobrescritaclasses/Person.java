@@ -11,7 +11,7 @@ public class Person {
 
     //Para a sobrescrita usando o toString podemos usar um codigo gerado pela IDE o proprio toString
     //    @Override
-    //    public String toString() {
+    //    public StringTest toString() {
     //        return "Person{" +
     //                "name='" + name + '\'' +
     //                ", age=" + age +

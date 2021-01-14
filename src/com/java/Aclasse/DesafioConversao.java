@@ -33,11 +33,11 @@ public class DesafioConversao {
 //    Scanner teclado = new Scanner(System.in);
 //
 //    System.out.print("Informe o primeiro salario: ");
-//    String A = teclado.next().replace(",", ".");
+//    StringTest A = teclado.next().replace(",", ".");
 //    System.out.print("Informe o segundo salario: ");
-//    String B = teclado.next().replace(",", ".");
+//    StringTest B = teclado.next().replace(",", ".");
 //    System.out.print("Informe o terceiro salario: ");
-//    String C = teclado.next().replace(",", ".");
+//    StringTest C = teclado.next().replace(",", ".");
 //
 //    double num1 = Double.parseDouble(A);
 //    double num2 = Double.parseDouble(B);
