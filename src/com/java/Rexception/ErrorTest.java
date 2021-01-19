@@ -18,4 +18,5 @@ public class ErrorTest {
      * Todas as excessões de RunTimeException para baixo são do tipo UNCHECKED
      * Todas exceções filhas de Exception são do tipo CHECKED
      */
+
 }
