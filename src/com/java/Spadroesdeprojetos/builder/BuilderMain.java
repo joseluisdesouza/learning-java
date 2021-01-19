@@ -1,8 +1,47 @@
 package com.java.Spadroesdeprojetos.builder;
 
+import com.java.Spadroesdeprojetos.builder.builders.CarBuilder;
+import com.java.Spadroesdeprojetos.builder.builders.SportCarBuilder;
+import com.java.Spadroesdeprojetos.builder.builders.TruckBuilder;
+import com.java.Spadroesdeprojetos.builder.cars.Car;
+import com.java.Spadroesdeprojetos.builder.cars.Truck;
+import com.java.Spadroesdeprojetos.builder.director.Director;
+
 public class BuilderMain {
     public static void main(String[] args) {
 
+        Director director = new Director();
+
+        /**
+         * Criando o carro
+         */
+
+        CarBuilder builder = new CarBuilder();
+        director.constructSedanCar(builder);
+
+        Car car = builder.getResult();
+        System.out.println(car.getCarTypeEnum() + " Produzido com sucesso");
+
+
+        /**
+         * Criando o caminhão
+         */
+
+        TruckBuilder truckBuilder = new TruckBuilder();
+        director.constructTruck(truckBuilder);
+
+        Truck truck = truckBuilder.getResult();
+        System.out.println("Caminhão: " + truck.result());
+
+        /**
+         * Criando um carro esportivo
+         */
+
+        SportCarBuilder builderSport = new SportCarBuilder();
+        director.constructSportCar(builderSport);
+
+        Car sportCar = builderSport.getResult();
+        System.out.println(sportCar.getCarTypeEnum() + " esportivo criado com sucesso");
     }
 
     /**
