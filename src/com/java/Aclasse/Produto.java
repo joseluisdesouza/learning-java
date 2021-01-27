@@ -7,7 +7,6 @@ public class Produto {
     static double desconto = 0.25;
 
     Produto() {
-
     }
 
     Produto(String nome, double preco) {
