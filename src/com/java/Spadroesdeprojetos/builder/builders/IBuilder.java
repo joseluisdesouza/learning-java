@@ -13,3 +13,8 @@ public interface IBuilder {
     void setEngine(Engine engine);
     void setColor(ColorCarEnum color);
 }
+
+/**
+ * Essa interface esta mostrando oque deve ter cada vez que eu for construir um objeto carro.
+ */
+

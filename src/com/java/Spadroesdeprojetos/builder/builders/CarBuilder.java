@@ -42,3 +42,8 @@ public class CarBuilder implements IBuilder{
         return new Car(carTypeEnum, seats, engine, transmissionEnum);
     }
 }
+
+/**
+ * Os builders ja sabem oque ele precisa colocar nos traibutos porque a classe esta sendo implementada com a interface IBuilder
+ *
+ */

@@ -21,6 +21,7 @@ public class BuilderMain {
 
         Car car = builder.getResult();
         System.out.println(car.getCarTypeEnum() + " Produzido com sucesso");
+        System.out.println("---------------------------------------------");
 
 
         /**
@@ -32,6 +33,7 @@ public class BuilderMain {
 
         Truck truck = truckBuilder.getResult();
         System.out.println("Caminhão: " + truck.result());
+        System.out.println("---------------------------------------------");
 
         /**
          * Criando um carro esportivo
@@ -42,6 +44,7 @@ public class BuilderMain {
 
         Car sportCar = builderSport.getResult();
         System.out.println(sportCar.getCarTypeEnum() + " esportivo criado com sucesso");
+        System.out.println("---------------------------------------------");
     }
 
     /**

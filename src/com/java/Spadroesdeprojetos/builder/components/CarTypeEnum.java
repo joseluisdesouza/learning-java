@@ -7,3 +7,7 @@ public enum CarTypeEnum {
     PICKUPTRUCK,
     TRUCK
 }
+
+/**
+ * Os componentes do carro, tipo do carro, cor, transmissão e motor.
+ */

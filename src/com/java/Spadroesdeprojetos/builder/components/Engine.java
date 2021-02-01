@@ -11,3 +11,7 @@ public class Engine {
         return power;
     }
 }
+
+/**
+ * Os componentes do carro, tipo do carro, cor, transmissão e motor.
+ */

@@ -8,3 +8,7 @@ public enum ColorCarEnum {
     VERDE,
     CINZA
 }
+
+/**
+ * Os componentes do carro, tipo do carro, cor, transmissão e motor.
+ */

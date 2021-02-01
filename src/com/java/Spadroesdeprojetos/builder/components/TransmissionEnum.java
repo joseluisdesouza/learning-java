@@ -5,3 +5,7 @@ public enum TransmissionEnum {
     AUTOMATIC,
     AUTOMATIC_SEQUENTIAL
 }
+
+/**
+ * Os componentes do carro, tipo do carro, cor, transmissão e motor.
+ */

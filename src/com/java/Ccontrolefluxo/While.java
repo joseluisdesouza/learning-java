@@ -5,9 +5,9 @@ public class While {
 
         int contador = 1;
 
-        while (contador <= 10)
+        while (contador <= 5)
             System.out.println("Bom dia");
-        contador++;
+        contador = contador +1;
 
     }
 }
