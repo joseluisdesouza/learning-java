@@ -34,11 +34,14 @@ public class Director {
 /**
  * Nosso diretor ja sabe que quando eu chamar um Sedan ou um Truck como ele devera ser construido isso atraves
  * da chamado da interface IBUilder
- *
+ * <p>
  * O diretor controla a ordem da construção. Ele sabe quais etapas de construção chamar para produzir este ou aquele modelo de carro.
+ * <p>
  *
- * Director – esta é a classe que controla o algoritmo responsável por gerar o objeto do produto final. Um objeto Director é instanciado e seus métodos construtores são chamados.
- * O método inclui um parâmetro para capturar objetos específicos do tipo Concrete Builder que serão então utilizados para gerar o produto (product).
- * Dessa forma, o director, chama os métodos do concrete builder na ordem correta para gerar o objeto produto.
+ * O diretor é apenas responsável por executar as etapas de
+ * construção em uma sequência em particular. Isso ajuda quando
+ * produzindo produtos de acordo com uma ordem específica ou
+ * configuração. A rigor, a classe diretor é opcional, já que o
+ * cliente pode controlar os builders diretamente.
  *
  */

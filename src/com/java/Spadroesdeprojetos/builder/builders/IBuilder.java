@@ -15,6 +15,6 @@ public interface IBuilder {
 }
 
 /**
- * Essa interface esta mostrando oque deve ter cada vez que eu for construir um objeto carro.
+ * Essa interface esta mostrando o que deve ter cada vez que eu for construir um objeto carro.
  */
 

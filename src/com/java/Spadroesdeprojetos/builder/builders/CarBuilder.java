@@ -48,5 +48,4 @@ public class CarBuilder implements IBuilder{
  *
  * O concrete builder então constrói a representação interna do produto e define o processo pelo qual essa classe será montada.
  * Na classe product são incluídas outras classes que definem as partes que a constituem, dentre elas, as interfaces para a montagem das partes no resultado final.
- *
  */
