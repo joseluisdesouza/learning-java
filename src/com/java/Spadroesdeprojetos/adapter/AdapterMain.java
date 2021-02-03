@@ -1,7 +1,15 @@
 package com.java.Spadroesdeprojetos.adapter;
 
+import com.java.Spadroesdeprojetos.adapter.adapters.PayonnerAdapter;
+import com.java.Spadroesdeprojetos.adapter.payoneer.Payoneer;
+import com.java.Spadroesdeprojetos.adapter.paypal.IPayPalPayments;
+
 public class AdapterMain {
     public static void main(String[] args) {
+
+        IPayPalPayments payment = new PayonnerAdapter(new Payoneer());
+        payment.payPalPayment();
+        payment.payPalReceive();
 
     }
 
@@ -20,4 +28,5 @@ public class AdapterMain {
      * adaptadora permite que classes com interfaces incompativeis
      * trabalhem juntas.
      */
+
 }
